@@ -1,46 +1,61 @@
 Hello World François Bassac here !
-
+>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <style>
-        /* Styles CSS pour l'entête */
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            display: flexdevice-width0px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My personal website</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+            nav {
+                display: flex;
+                justify-content: center;
+                background-color: #fff4;
+                padding: 10px 0;
+            }
+            nav a {
+                color: black; /* Change la couleur du texte en noir */
+                text-decoration: none;
+                margin: 0 10px;
+            }
+            main {
+                padding: 20px;
+            }
+            h1 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+        </style>
+    </head>
 <body>
     <header>
         <h1>My Personal Website</h1>
+        <!--Liens vers les différentes pages-->
         <nav>
-            <a href="#who-i-am">Who I am</a>
-            <a href="#projects">Projects</a>
-            <a href="#research">Research</a>
-            <a href="#teaching">Teaching</a>
-            <a href="#contact">Contact</a>
-        </nav>
+            <a href="whoiam.html">Who I am</a>
+            <a href="projects.html">Projects</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="contact.html">Contact</a>
+        </nav>  
     </header>
 
     <!-- Contenu de la page -->
-    <section id="who-i-am">
-        <h2>Who I am</h2>
+    <section id="about">
+        <h2>About</h2>
         <p>Here you can introduce yourself and provide some information about yourself.</p>
     </section>
 
